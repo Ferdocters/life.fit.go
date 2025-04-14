@@ -1,0 +1,64 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Links</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 480px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    img {
+      width: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 30px;
+      color: #555;
+    }
+    a.button {
+      display: block;
+      background: #007bff;
+      color: white;
+      text-decoration: none;
+      padding: 14px;
+      margin: 10px 0;
+      border-radius: 10px;
+      transition: 0.3s ease;
+    }
+    a.button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://via.placeholder.com/120" alt="Profile Picture" />
+    <h1>Your Name</h1>
+    <p>Hi! I’m a [your job/brand/mission]. I help people [value you provide]. Let’s connect!</p>
+
+    <a class="button" href="https://wa.me/1234567890" target="_blank">💬 WhatsApp</a>
+    <a class="button" href="https://instagram.com/yourprofile" target="_blank">📷 Instagram</a>
+    <a class="button" href="https://yourform.typeform.com" target="_blank">📩 Contact (Typeform)</a>
+  </div>
+</body>
+</html>
